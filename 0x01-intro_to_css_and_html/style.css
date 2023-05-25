@@ -44,23 +44,43 @@ h4{
 
 .grid-container {
         display: grid;
-        grid-template-columns: 200px 200px 200px 200px;
         gap: 50px;
+        flex-wrap: wrap;
         align-items: center;
-        justify-content: space-evenly;
-        color: grey;
+        justify-content: center;
+        background-color: white;       
 }
+
+.item{ 
+    width: 200px ;
+    height: 200px;
+    border-radius: 8px;
+    background-color: grey;
+    max-width:  200px;
+    display: flex;
+    flex-direction: column;
+}
+    
+
+    .container{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        flex-direction: column;}
 
 @media (min-width: 1024px){
     .grid-container
-     {display: flex;
-     flex-direction: row;
-     gap: 20px;}
-    }
+        {display: flex;
+         flex-direction: row;
+         gap: 20px;}
+}
 
 @media (min-width: 360px) and (max-width: 640px) {
     .grid-container{
         display: grid;
-        grid-template-columns: 400px;
+        grid-template-columns: 90px;
     }
 }
+

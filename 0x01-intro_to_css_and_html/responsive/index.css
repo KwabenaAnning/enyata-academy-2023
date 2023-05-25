@@ -5,9 +5,7 @@
 .globe{
     height: 60px;
     width: 60px;
-
 }
-
 .textContent {
    background-color: aquamarine;
    display: flex;
@@ -15,6 +13,25 @@
    align-items: center;
    padding: 10px;
    gap: 20px;
+}
+.box{ 
+    width: 200px ;
+    height: 200px;
+    border-radius: 8px;
+    background-color: bisque;
+    max-width:  200px;}
+
+.box-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 .Tonga{ 
     font-size: 14px;
