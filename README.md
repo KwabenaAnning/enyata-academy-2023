@@ -1,2 +1,2 @@
-echo 'Hello World! I am a developer now!'
-for (int
+Hello World! I am a developer now!
+
