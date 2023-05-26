@@ -1,0 +1,11 @@
+
+console.log(
+A var can be accessed only within that function.
+the let solves the problem of the var and also more flexible to use than the var.
+Variables declared with the const maintain constant values therfore one has to declare a variable and or assign a variable  to define it
+To declarea string, the characters has to be put in a double quote
+Yes, we can. for a single character like 'a' you can use the single quote and for a a sentence or a a word you should use the double quote
+"9" is a string  and 9 is a number since it has no double quote
+declaration means using the variable for the first time. Redeclaration is when a variable is modified. 
+assign is like cloning an object and using 'let' or 'var', you can reassign an object by redefining the content.
+)
