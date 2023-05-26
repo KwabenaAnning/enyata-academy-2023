@@ -14,5 +14,4 @@ let carName =
   Braketype: "calliper",
   Transmission: 'Automotic',
   Gears: 6,
-
 }

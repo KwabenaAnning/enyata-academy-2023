@@ -5,6 +5,9 @@
 .globe{
     height: 60px;
     width: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 .textContent {
    background-color: aquamarine;
@@ -19,7 +22,10 @@
     height: 200px;
     border-radius: 8px;
     background-color: bisque;
-    max-width:  200px;}
+    max-width:  200px;
+    align-items: center;
+    gap: 30px ;}
+    
 
 .box-container{
     display: flex;
