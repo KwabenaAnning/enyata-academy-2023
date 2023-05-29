@@ -15,3 +15,22 @@ let carName =
   Transmission: 'Automotic',
   Gears: 6,
 }
+/* new work here*/
+let person = {
+    name: "sylvia",
+    gender:"female"
+}
+console.log(person.name);
+
+let name = "Jason"
+console.log(name)
+
+let animals = {
+    name: "cat",
+    color: "black",
+    isMale: false,
+    owner: kofi
+}
+
+
+

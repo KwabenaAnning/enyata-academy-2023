@@ -8,3 +8,5 @@ Yes, we can. for a single character like 'a' you can use the single quote and fo
 "9" is a string  and 9 is a number since it has no double quote
 declaration means using the variable for the first time. Redeclaration is when a variable is modified. 
 assign is like cloning an object and using 'let' or 'var', you can reassign an object by redefining the content.
+
+
