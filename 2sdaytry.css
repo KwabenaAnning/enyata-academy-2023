@@ -1,0 +1,922 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: DM Sans;
+}
+ 
+
+
+.heroSection{
+ display: block;
+ align-items: center;
+ background-color: #029954;
+}
+
+.navBar{
+    display: flex;
+    margin: 0px 20px 88px 21px; 
+    justify-content: space-between;  
+}
+
+.menuSeen{
+    display: none;
+}
+
+
+.heroText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin: 24px 0px 88px 21px;
+    color: white;
+    margin: auto;
+}
+
+.heading{
+ font-size: 54px;
+ font-weight: 700;
+ line-height: 54px;
+ letter-spacing: -0.05em;
+ text-align: center;
+ width: 309px;
+ height: 162px;
+ margin-bottom: 24px;
+ 
+}
+
+.smallText{
+    font-family: DM Sans;
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 24px;
+ text-align: center;
+  width: 311px;
+ height: 96px;
+ top: 330px;
+ left: 32px;
+ opacity: 0.899px
+
+}
+
+.googlepalyStore{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.images1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+ .iPhone{
+    margin-right: 53px;
+ }
+
+ /*  part 2*/
+ .aboutSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #fafafa;
+    padding: 56px 32px 56px 34px;
+ }
+
+ .Texts{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+ }
+
+ .headingText{
+    font-family: DM Sans;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    width: 311px;
+    height: 70px;
+    color:#007640;
+ }
+
+ .subText{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 311px;
+    height: 144px;
+    opacity: 0.60px;
+    color: #000000;
+ }
+
+ /*  part 3*/
+
+ .fans1{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    padding: 56px 32px;
+ }
+
+ .youngOldGee{
+   padding-bottom: 64px;
+ }
+
+
+ .imageAndText{
+    display: grid;
+    gap: 24px;
+ }
+
+ .headingText2{
+    font-family: DM Sans;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    width: 311px;
+    height: 105px;
+    top: 400px;
+    left: 32px; 
+    color: #000000;
+ }
+
+
+ .techToMusic{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 311px;
+    height: 96px;
+    top: 529px;
+    left: 32px;
+    opacity: 0.6000px;
+    color: #121212;
+ }
+
+  /*  part 4*/
+
+  .fans2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#007640;
+   
+  }
+
+  .fansChatIcon{
+    display: flex;
+    margin: 130px 32px 40px 32px;
+    justify-content: space-between;
+  }
+
+  .fansChatIcon p{
+    background-color: #FFBB62;
+    width: 84px;
+    height: 27px;
+    border-radius: 50px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+  }
+
+  .fansChatIcon img{
+    border-radius: 40px;
+    width: 24px;
+    height: 24px;
+    margin: 12px;}
+  
+  
+
+  .imageChat{
+    border: 2.5px solid #FFBB62;
+    width: 48px;
+    height: 48px;
+    border-radius: 60px;
+  }
+
+  .textForFans2{
+    display: grid;
+    gap:24px;
+    padding: 0px 32px 152px 32px;
+  }
+
+  .beAssured{
+    font-family: DM Sans;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+    width: 311px;
+    height: 70px;
+    color: #FFFFFF;
+    
+  }
+
+
+.withEar1{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    width: 311px;
+    height: 70px;
+    opacity: 0.899px;
+    color: #FFFFFF;
+}
+
+/* part 5*/
+.influencers1{
+    display: grid;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.influencers1 h5{
+ background-color: #FF8C62;
+ padding: auto;
+ width: 96px;
+ height: 27px;
+ border-radius: 50px;
+ font-family: DM Sans;
+ font-size: 14px;
+ font-weight: 500;
+ line-height: 16px;
+ letter-spacing: -0.03em;
+ border-radius: 50px;
+ display: grid;
+ justify-items: center;
+ align-items: center;
+}
+
+
+.influencerText{ 
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+    border-radius: 40px;
+    width: 96px;
+    height: 27px;
+    margin: 72px 259px 51px 20px;
+    color: #000000;
+}
+
+.subtextsEarn{
+    display: grid;
+    gap: 24px;
+    justify-content: center;
+}
+
+
+.earnMoney{
+    font-family: DM Sans;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    width: 311px;
+    height: 70px;
+    color: #121212;
+
+}
+
+.influencers1 p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 311px;
+    height: 72px;
+    opacity: 0.60px;
+   color: #121212; 
+
+}.influencers1 img{
+    margin-top: 31px;
+}
+
+/*part 6*/
+.influencers2{
+    display: grid;
+    justify-content: center;
+    padding: 131px 32px 138px 32px;
+    background-color: #202020;
+}
+
+.navbarInfluencer{
+    display: flex;
+    gap: 167px;
+   margin-bottom: 40px;
+}
+
+.navbarInfluencer h5{
+    background-color: #FF8C62;
+ padding: auto;
+ width: 96px;
+ height: 27px;
+ border-radius: 50px;
+ font-family: DM Sans;
+ font-size: 14px;
+ font-weight: 500;
+ line-height: 16px;
+ letter-spacing: -0.03em;
+ border-radius: 50px;
+ display: grid;
+ justify-items: center;
+ align-items: center; 
+}
+
+.filterEar1{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    text-align: left;
+}
+
+.filterEar1 h3{
+    font-family: DM Sans;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.03em;
+    width: 311px;
+    height: 68px;
+    color: #FFFFFF;
+    
+}
+
+.filterEar1 p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    width: 311px;
+    height: 120px;
+    opacity: 0.60px;
+    color: #FFFFFF; 
+}
+
+/*part 6*/
+.features{
+    display: grid;
+    justify-content: center;
+    padding: 56px 20px 53px 20px;
+    border: 1px solid red;;
+}
+
+.featureText{
+  text-align: left;
+  margin-left: 0 auto;
+}
+
+.features h3{
+    font-family: DM Sans;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.03em;
+    width: 311px;
+    height: 35px;
+    color: #007640;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.easeWith{
+ display: flex;
+ flex-direction: column;
+ gap: 16px;
+}
+
+.easeWith h4{
+    font-family: DM Sans;
+   font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    width: 269px;
+    height: 28px;
+    color: #121212;
+
+}
+
+.easeWith p{
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 269px;
+  height: 48px;
+  opacity: 0.60px;
+  color: #121212;
+}
+
+.multiEar1{
+    display: grid;
+    gap: 16px;
+    margin-top: 54px;
+}
+.multiEar1 h4{
+    width: 281px;
+  height: 28px;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+  color: #121212;
+
+}
+
+.multiEar1 p{
+    font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 269px;
+  height: 48px;
+  opacity: 0.60px;
+  color: #121212;
+}
+
+.secureState{
+    display: grid;
+    gap: 16px;
+    margin-top: 54px;
+}
+
+.fulliPhone img{
+    display: flex;
+    flex-direction: column;
+   margin-right: 0 auto;
+}
+.secureState h4{
+    width: 281px;
+    height: 28px;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.secureState p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 269px;
+    height: 96px;
+    opacity: 0.60px;
+    color: #121212;
+}
+
+
+.frame54{
+    display: flex;
+    flex-direction: column;
+    top: 1035px;
+    padding: 64px 24px 76px 24px;
+    background-color: #029f58;
+    border-radius: 50px;
+    width: 335px;
+    height: 551px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.frame54 h3{
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    width: 287px;
+   height: 98px;
+   color: #FFFFFF;
+
+}
+
+.frame54 p{
+    width: 287px;
+    height: 48px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+   text-align: left;
+   color: #FFFFFF;
+   margin-top: 24px;
+}
+
+
+.imageStack{
+    display: grid;
+    gap: 40px;
+    margin-top: 48px;
+}
+
+
+.footer{
+    padding: 59px 20px 77px 20px;
+    text-align: left;
+    display: grid;
+    justify-content: left;
+    border: 1px solid red;
+}
+
+.line{
+    width: 335px;
+    margin: 3px 20px 0px 20px;
+    top: 3px;
+    border: 1px;
+    color: #00000033;
+    
+}
+
+.SubtextAccess{
+    width: 335px; 
+   height: 72px;
+   font-family: DM Sans;
+   font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 400;
+  color: #121212;
+
+}
+
+
+.enterSubmit{
+    display: flex;
+    gap: 31px;
+    width: 335px;
+    height: 56px;
+    border-radius:10px;
+    border: 1px solid #121212;  
+    margin-top: 24px;
+}
+
+.enterSubmit h6{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    width: 184px;
+    height: 24px;
+    color: #000000BF;
+    margin: 16px 31px 16px 8px; 
+    max-width: 100%; 
+   
+    
+}
+
+.enterSubmit button{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.075em;
+    width: 56px;
+    color: #FFFFFF;  
+    width: 112px;
+    height: 56px;
+    border-radius:0px 10px 10px 0px; 
+    background-color: #121212;  
+  
+}
+
+.earr1{
+    margin: 64px 247px 40px 0px;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 24px;
+}
+
+.underText1{
+    width: 110px;
+    margin: 52px 233px 0px 0px;
+    display: grid;
+    gap: 24px;
+    
+}
+
+.underText1 h5{
+    width: 49px;
+    height: 30px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+   
+}
+
+.home{
+    width: 44px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #121212;
+    margin-top: 8px;
+}
+
+.forFans{
+    width: 59px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #121212;
+    max-width: 100%;
+    width: fit-content;
+    
+}
+
+.forInfluencers{
+    width: 110px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+        
+}
+
+.faqs{
+    width: 41px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #121212;
+
+}
+
+
+.underText2{
+    width: 85px;
+    margin: 52px 258px 0px 0px;  
+    display: grid;
+    gap: 30px;
+}
+
+.underText2 h5{
+    font-family: DM Sans;
+    font-size: 20px;
+   font-weight: 500;
+   line-height: 30px;
+   text-align: left;
+   width: 81px;
+   height: 30px;
+   color: #121212;
+
+}
+
+.support{
+    width: 60px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #121212;
+     
+}
+
+.partnership{
+    width: 85px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+   line-height: 24px; 
+   color: #121212; 
+}
+
+
+
+.underText3{
+    width: 94px;
+    display: grid;
+    gap: 24px;
+    margin: 52px 249px 0px 0px;
+        
+}
+
+.download{
+    width: 94px;
+    height: 30px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #121212;
+}
+
+.android{
+    width: 59px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #121212;
+}
+
+.IOS {
+    width: 26px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #121212;
+}
+
+.underText4{
+    width: 122px;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 52px 221px 0px 0px;
+  
+}
+
+.underText4 h5{
+    width: 99px;
+    height: 30px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #121212;   
+}
+
+.tos{
+    width: 130px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #121212;
+    max-width: 100%;
+    width: max-content;
+}
+
+
+.pp{
+    width: 103px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #121212;       
+
+}
+
+/*@media screen  and (min-width: 376px){ 
+    body{
+        max-width: 1440px;
+        width: 100%;
+    }
+    .navBar{
+        display: flex;
+        margin: 47px 120px 132px 119px;
+        gap: 470px;   
+    }
+    
+    .menuSeen{
+        display: flex;
+        gap: 52px;
+        text-align: left;
+
+    }
+
+    .homeTop{
+        width: 56px;
+        height: 23px;
+        font-family: DM Sans;
+        font-size: 20px;
+       font-weight: 500;
+       line-height: 23px;
+       text-align: left;
+       color: #FFFFFF;
+    }
+    .fFans{
+        width: 79px;
+        height: 23px;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+
+    .fInfluencers{
+        width: 141px;
+        height: 23px;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+
+    .feaTures{
+        width: 83px;
+        height: 23px;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23px;
+        color: #FFFFFF; 
+        
+    }
+
+    .FAQs{
+        width: 53px;
+        height: 23px;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23px;
+        color: #FFFFFF; 
+        
+    }
+     
+    .mmenu{
+        display: none;
+    }
+    
+    .heading{
+        width: 1200px;
+        height: 369px;
+        font-family: DM Sans;
+        font-size: 130px;
+        font-weight: 700;
+        line-height: 123px;
+        letter-spacing: -0.06em;
+        color: #FFFFFF;
+        
+    }
+
+    
+    .googlepalyStore{
+        display: flex;
+        gap: 26px;
+        margin: 82px 447px 16px 447px;
+
+    }
+     
+
+}
+
+
+
+
